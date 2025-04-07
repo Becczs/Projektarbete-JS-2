@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <h1>Tamagotchi</h1>
+  <h2>-Aussie style</h2>
+  <div>
+    
+    <form id="createPetForm">
+      <fieldset>
+        <legend>Get a new bush baby</legend>
+        <label for="petName">Name:</label>
+        <input type="text" id="petName" required>
+        <label for="petType">Type:</label>
+        <select id="petType" required>
+          <option value="platypus">Platypus</option>
+          <option value="kangaroo">Kangaroo</option>
+          <option value="echidna">Echidna</option>
+          <option value="koala">Koala</option>
+          <option value="quokka">Quokka</option>
+          <option value="emu">Emu</option>
+        </select>
+        <button type="submit">Adopt</button>
+      </fieldset>
+    </form>
+  </div>
+  
+  <div id="petsContainer">
+    
+  </div>
+
+  <div id="activityLog" class="activity-log">
+    <h3>Pet Care Journal</h3>
+    
+  </div>
+
+  <audio id="audioPlayer" src="music/40-downUnder-manAtWork_64kb.wav"></audio>
+  <button id="playPauseButton">Play</button>
+
+</body>
+</html>
